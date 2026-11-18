@@ -21,6 +21,7 @@ std::cout << *p <<' '<< *q << std::endl;
 
 *Примеры программ сохраните в папке с номером задания. Скриншоты работы прикрепите к отчету.*
 
+<img width="425" height="121" alt="image" src="https://github.com/user-attachments/assets/b6b5999f-2021-476f-9a30-0e3c37919d8b" />
 
 ### Задание 2 **(1)**
 
