@@ -49,11 +49,15 @@ int main(void) {
 
 
 ```
-void dosome(const std::vector<int> &V);
-void dosome(std::vector<int> &V);
-void dosome(const std::vector<int> V);
-void dosome(std::vector<int> V);
+void dosome_1(const std::vector<int> &V);
+void dosome_2(std::vector<int> &V);
+void dosome_3(const std::vector<int> V);
+void dosome_4(std::vector<int> V);
 ```
+*Напишите примеры для этих функций. В качестве примера можно взять нахождение суммы всех элементов
+вектора.*
+
+*Выведите адрес нулевого элемента вектора в функции. Объясните результат.*
 
 *Проверьте в какие из этих функций можно передать константные вектора. Объясните результат.*
 ```
