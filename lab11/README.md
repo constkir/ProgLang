@@ -49,13 +49,13 @@ int main(void) {
 
 
 ```
-void dosome(const vector<int> &V);
-void dosome(vector<int> &V);
-void dosome(const vector<int> V);
-void dosome(vector<int> V);
+void dosome(const std::vector<int> &V);
+void dosome(std::vector<int> &V);
+void dosome(const std::vector<int> V);
+void dosome(std::vector<int> V);
 ```
 
-*Проверьте в какие из этих функций можно передать константные вектора. ОЛбъясните результат.*
+*Проверьте в какие из этих функций можно передать константные вектора. Объясните результат.*
 ```
 dosome({1, 2, 3});
 ```
